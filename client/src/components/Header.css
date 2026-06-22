@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(255, 243, 255, 0.283);
+  backdrop-filter: blur(5px);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Logo */
+.logo-img {
+  color: transparent;
+  width: 240px;
+  height: auto;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Navbar */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+/* underline effect */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
