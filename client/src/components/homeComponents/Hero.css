@@ -1,0 +1,165 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Background Video */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+/* Dark Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #939391;
+}
+
+.hero-content h1 span {
+  display: block;
+  font-weight: 600;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #e5e5e5;
+  max-width: 650px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-btn-portfolio {
+  background: white;
+  color: #111;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.hero-btn-portfolio:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.hero-btn-book {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-btn-book:hover {
+  background: white;
+  color: #111;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-btn-portfolio,
+  .hero-btn-book {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* hide video on mobile */
+  .hero-video {
+    display: none;
+  }
+
+  /* show image on mobile */
+  .hero-image {
+    display: block;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+    text-shadow: 0 2px 4px rgb(0, 0, 0);
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-btn-portfolio,
+  .hero-btn-book {
+    width: 100%;
+  }
+}
