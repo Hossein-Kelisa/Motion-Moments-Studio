@@ -1,16 +1,19 @@
 footer {
   /* background-color: #ffffff; */
-  color: rgb(0, 0, 0);
+  color: rgba(245, 162, 89, 0.798);
   /* padding: 2rem 1rem; */
   text-align: center;
   font-size: 12px;
   padding: 0;
   margin: 0;
-  text-shadow: 0 1px 2px rgba(235, 235, 235, 0.874);
 }
 .footer-text {
   margin: 0;
   padding: 0;
+}
+.footer-text a {
+  color: rgba(245, 162, 89, 0.798);
+  text-decoration: none;
 }
 
 /* footer p {

@@ -13,7 +13,7 @@ function Footer() {
         >
           HosseinKelisa.com
         </a>{" "}
-        | All rights reserved
+        | All rights reserved 2026
       </p>
     </footer>
   );
