@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background Video */}
       <video
         className="hero-video"
-        src="/Hero-vid.mp4"
+        src="/Hero-vid2.mp4"
         autoPlay
         loop
         muted
