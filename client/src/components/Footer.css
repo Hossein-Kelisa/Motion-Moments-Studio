@@ -4,6 +4,12 @@ footer {
   /* padding: 2rem 1rem; */
   text-align: center;
   font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.footer-text {
+  margin: 0;
+  padding: 0;
 }
 
 /* footer p {
@@ -15,6 +21,6 @@ footer {
   } */
 
   footer p {
-    font-size: 9px;
+    font-size: 8px;
   }
 }

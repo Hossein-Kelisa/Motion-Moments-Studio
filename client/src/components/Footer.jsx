@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <p>
+      <p className="footer-text">
         &copy; motionandmoments.com - Made with ♥ by{" "}
         <a
           href="https://HosseinKelisa.com"
