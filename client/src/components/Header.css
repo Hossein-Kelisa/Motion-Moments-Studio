@@ -4,8 +4,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  background: rgba(229, 247, 225, 0.805);
-  backdrop-filter: Glassblur(2px);
+  background: rgba(255, 255, 255, 0.918);
 }
 
 .header-container {
